@@ -1,0 +1,381 @@
+.header {
+    background-image: url(https://p2.piqsels.com/preview/745/724/30/bridge-nature-road-journey.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    color: white;
+    letter-spacing: 2px;
+    font-family: sans-serif;
+}
+
+button {
+    background-color: green;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: none;
+    color: white;
+}
+
+.img img {
+    border-radius: 50%;
+    height: 140px;
+    width: 140px;
+
+}
+
+.profil {
+    text-align: center;
+}
+
+nav {
+    text-transform: uppercase;
+    
+}
+
+/* .logo{
+    width: 200px;
+    background-color: #4caf50;
+} */
+
+.creative_cv,
+.abo,
+.skills,
+.port,
+.experience,
+.contact {
+    display: inline-block;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-bottom: 100px;
+    color: white;
+}
+
+.creative_cv {
+    padding-right: 700px;
+    padding-left: 200px;
+}
+
+.about-basic {
+    margin: 50px 300px;
+    box-sizing: border-box;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    border: 2px white solid;
+    font-size: 20px;
+}
+
+.about {
+    flex-basis: 50%;
+    padding: 20px 100px 50px 40px;
+}
+
+.basic {
+    flex-basis: 50%;
+    padding: 20px 100px 50px 20px;
+}
+
+.basic td:nth-child(1) {
+    padding: 10px 60px 0px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+h2 {
+    display: block;
+}
+
+.group {
+    margin: 50px 300px;
+    box-sizing: border-box;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    border: 2px white solid;
+    font-size: 20px;
+    padding: 15px 30px;
+}
+
+progress {
+    /* Style the progress bar */
+    height: 10px;
+    width: 500px;
+    background-color: #ddd;
+}
+
+/* Style the progress value */
+progress::-webkit-progress-value {
+    background-color: #4caf50;
+}
+
+.progress_badge {
+    font-size: 25px;
+    margin-top: 8px;
+    padding-right: 50px;
+}
+
+.progress_value_a {
+    font-size: 25px;
+    margin-top: 8px;
+    padding-left: 320px;
+}
+
+.progress_value_b {
+    font-size: 25px;
+    margin-top: 8px;
+    padding-left: 290px;
+}
+
+.progress_value_c {
+    font-size: 25px;
+    margin-top: 8px;
+    padding-left: 280px;
+}
+
+.progress_value_d {
+    font-size: 25px;
+    margin-top: 8px;
+    padding-left: 340px;
+}
+
+.progress_value_e {
+    font-size: 25px;
+    margin-top: 8px;
+    padding-left: 330px;
+}
+
+.progress_value_f {
+    font-size: 25px;
+    margin-top: 8px;
+    padding-left: 290px;
+}
+
+.progress {
+    margin: 2px 100px 2px 0px;
+    padding: 20px 0px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.logo {
+    margin-top: -50px;
+}
+
+.logo ul {
+    display: flex;
+    margin: 20px;
+}
+
+.logo ul div {
+    width: 40px;
+    height: 5px;
+    margin: auto;
+}
+
+.logo ul li {
+    position: relative;
+    list-style: none;
+    width: 70px;
+    margin: 0px 10px;
+}
+
+.logo ul li span {
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    display: flex !important;
+    background-color: #2a2a2a;
+    justify-content: center;
+    color: #fff;
+    font-size: 45px !important;
+    transition: 1.5s ease-out;
+}
+
+.logo ul li:hover span {
+    transition: .3s;
+}
+
+.logo ul li:nth-child(2):hover span {
+    background-color: #cc296c;
+}
+
+.logo ul li:nth-child(3):hover span {
+    background-color: #303a6f;
+}
+
+.image img {
+    margin-left: 500px;
+    --_a: 10% /45% 45% no-repeat linear-gradient(#000 0 0);
+    --m:
+        left var(--_i, 0%) top var(--_a),
+        bottom var(--_i, 0%) left var(--_a),
+        top var(--_i, 0%) right var(--_a),
+        right var(--_i, 0%) bottom var(--_a);
+    -webkit-mask: var(--m);
+    mask: var(--m);
+    filter: grayscale();
+    transition: .3s linear;
+    cursor: pointer;
+
+}
+
+.image img:hover {
+    --_i: 10%;
+    filter: grayscale(0);
+}
+
+.image {
+    margin: 50px;
+    grid-auto-flow: column;
+    place-content: center;
+    gap: 40px;
+}
+
+.workexp_a,
+.adit,
+.iti, .cerificate{
+    margin: 50px 300px;
+    box-sizing: border-box;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    border: 2px white solid;
+    font-size: 20px;
+    padding: 15px 30px;
+}
+
+.workexp_a .date {
+    flex-basis: 20%;
+    background-color: green;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 50px;
+}
+
+.app {
+    flex-basis: 80%;
+    font-size: 20px;
+    padding-left: 15px;
+}
+
+.app h2 {
+    font-size: 38px;
+}
+
+.adit .date,
+.iti .date, .cerificate .date {
+    flex-basis: 20%;
+    background-color: green;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+
+}
+
+.adit_info,
+.iti_info, .cerificate_info {
+    flex-basis: 80%;
+    padding-left: 15px;
+}
+
+h4 {
+    font-size: 35px;
+}
+
+h5 {
+    font-size: 25px;
+}
+
+.cont {
+    margin: 300px 500px;
+    box-sizing: border-box;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    border: 2px white solid;
+    font-size: 20px;
+    padding: 10px 30px;
+}
+
+.contact_me {
+    flex-basis: 50%;
+}
+
+p {
+    display: block;
+}
+
+input {
+    margin: 3px;
+    padding: 10px;
+    padding-right: 50px;
+    border-radius: 20px;
+}
+
+textarea {
+    border: none;
+    border-bottom: #4caf50 3px solid;
+    margin-bottom: 5px;
+    padding-left: 30px ;
+}
+
+nav a, .button a {
+    text-decoration: none;
+    color: white;
+}
+
+iframe {
+    position: absolute;
+    z-index: -1;
+
+}
+
+
+.address {
+    display: inline-block;
+    flex-basis: 50%;
+}
+
+.sub3 {
+    display: flex;
+}
+
+.address table td {
+    margin: 30px;
+}
+.address table{
+    margin: 40px;
+}
+.address td{
+    padding: 20px;
+}
+footer{
+    text-align: center;
+}
+footer p{
+    color: grey;
+    padding: 0;
+    margin: 0;
+}
+
+.cerificate_info a {
+    color: black;
+    text-decoration: none;
+}
+.cerificate_info a:hover{
+    font-size: 25px;
+    background-image:
+                radial-gradient(at 40% 20%, hsla(28, 100%, 74%, 1) 0px, transparent 50%),
+                radial-gradient(at 0% 50%, hsla(355, 100%, 93%, 1) 0px, transparent 50%),
+                radial-gradient(at 80% 50%, hsla(340, 100%, 76%, 1) 0px, transparent 50%),
+                radial-gradient(at 0% 100%, hsla(22, 100%, 77%, 1) 0px, transparent 50%),
+                radial-gradient(at 0% 0%, hsla(343, 100%, 76%, 1) 0px, transparent 50%);
+        }
+
+        .cerificate .date{
+            padding-top: 350px;
+        }
